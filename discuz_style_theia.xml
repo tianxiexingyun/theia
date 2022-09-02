@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Style]]></item>
+	<item id="Version"><![CDATA[X3.4]]></item>
+	<item id="Time"><![CDATA[2022-06-17 18:28]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://discuz.com/)]]></item>
+	<item id="Data">
+		<item id="styleid"><![CDATA[5]]></item>
+		<item id="name"><![CDATA[忒伊亚]]></item>
+		<item id="available"><![CDATA[1]]></item>
+		<item id="templateid"><![CDATA[5]]></item>
+		<item id="extstyle"><![CDATA[|]]></item>
+		<item id="tplname"><![CDATA[忒伊亚]]></item>
+		<item id="directory"><![CDATA[./template/theia]]></item>
+		<item id="copyright"><![CDATA[Robin Zhang]]></item>
+		<item id="style">
+			<item id="noticetext"><![CDATA[]]></item>
+			<item id="specialbg"><![CDATA[]]></item>
+			<item id="specialborder"><![CDATA[]]></item>
+			<item id="commonbg"><![CDATA[]]></item>
+			<item id="commonborder"><![CDATA[]]></item>
+			<item id="floatbgcolor"><![CDATA[]]></item>
+			<item id="floatmaskbgcolor"><![CDATA[]]></item>
+			<item id="dropmenuborder"><![CDATA[]]></item>
+			<item id="dropmenubgcolor"><![CDATA[]]></item>
+			<item id="inputbg"><![CDATA[#FFF]]></item>
+			<item id="inputborderdarkcolor"><![CDATA[]]></item>
+			<item id="inputborder"><![CDATA[]]></item>
+			<item id="menuhovertext"><![CDATA[]]></item>
+			<item id="menutext"><![CDATA[]]></item>
+			<item id="menuhoverbgcolor"><![CDATA[]]></item>
+			<item id="menubgcolor"><![CDATA[]]></item>
+			<item id="contentseparate"><![CDATA[]]></item>
+			<item id="contentwidth"><![CDATA[]]></item>
+			<item id="msgfontsize"><![CDATA[14px]]></item>
+			<item id="wrapbordercolor"><![CDATA[]]></item>
+			<item id="lightlink"><![CDATA[]]></item>
+			<item id="wrapbg"><![CDATA[]]></item>
+			<item id="highlightlink"><![CDATA[]]></item>
+			<item id="link"><![CDATA[]]></item>
+			<item id="midtext"><![CDATA[]]></item>
+			<item id="lighttext"><![CDATA[]]></item>
+			<item id="tabletext"><![CDATA[]]></item>
+			<item id="smfontsize"><![CDATA[]]></item>
+			<item id="threadtitlefont"><![CDATA[]]></item>
+			<item id="threadtitlefontsize"><![CDATA[]]></item>
+			<item id="smfont"><![CDATA[]]></item>
+			<item id="fontsize"><![CDATA[]]></item>
+			<item id="font"><![CDATA[]]></item>
+			<item id="footertext"><![CDATA[]]></item>
+			<item id="headertext"><![CDATA[]]></item>
+			<item id="headerborder"><![CDATA[1px]]></item>
+			<item id="titlebgcolor"><![CDATA[]]></item>
+			<item id="sidebgcolor"><![CDATA[#FFF sidebg.gif repeat-y 100% 0]]></item>
+			<item id="bgcolor"><![CDATA[]]></item>
+			<item id="headerbgcolor"><![CDATA[]]></item>
+			<item id="stypeid"><![CDATA[1]]></item>
+			<item id="styleimgdir"><![CDATA[template/theia/common/images]]></item>
+			<item id="imgdir"><![CDATA[]]></item>
+			<item id="boardimg"><![CDATA[logo.png]]></item>
+			<item id="available"><![CDATA[]]></item>
+		</item>
+		<item id="version"><![CDATA[X3.4]]></item>
+	</item>
+</root>
