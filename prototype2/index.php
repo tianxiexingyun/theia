@@ -12,6 +12,29 @@
 <body>
 
 <div class="container">
+	<div class="header">
+		<div class="row banner">
+			<div class="col-xs-1 col-sm-1 col-md-1"></div>
+			<div class="carousel"></div>
+			<div class="nav"></div>
+		</div>
+		<div class="row carousel">
+			<div class="col-xs-1 col-sm-1 col-md-1"></div>
+		</div>
+		<div class="row nav">
+			<div class="col-xs-1 col-sm-1 col-md-1"></div>
+		</div>
+	</div>
+
+	<div class="main">
+
+	</div>
+
+	<div class="footer">
+
+	</div>
+
+
 	<div class="row">
 		<div class="col-xs-6 col-sm-3">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
