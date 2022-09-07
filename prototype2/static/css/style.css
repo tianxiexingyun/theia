@@ -1,3 +1,24 @@
 .container {
-    border: 1px solid #000;!important;
+    border: 1px solid #000;
+}
+
+
+.header .row {
+    min-height: 36px;
+    border: 1px solid #00ccff;
+}
+
+.main .content {
+    min-height: 72px;
+    border: 1px solid #5a5a5a;
+}
+
+.main .sidebar {
+    min-height: 72px;
+    border: 1px solid #5a5a00;
+}
+
+.main .copyright {
+    min-height: 72px;
+    border: 1px solid #5a5a00;
 }

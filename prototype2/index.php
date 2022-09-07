@@ -15,8 +15,6 @@
 	<div class="header">
 		<div class="row banner">
 			<div class="col-xs-1 col-sm-1 col-md-1"></div>
-			<div class="carousel"></div>
-			<div class="nav"></div>
 		</div>
 		<div class="row carousel">
 			<div class="col-xs-1 col-sm-1 col-md-1"></div>
@@ -27,11 +25,16 @@
 	</div>
 
 	<div class="main">
-
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-9 content"></div>
+			<div class="col-xs-12 col-sm-12 col-md-3 sidebar"></div>
+		</div>
 	</div>
 
 	<div class="footer">
-
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 copyright"></div>
+		</div>
 	</div>
 
 
