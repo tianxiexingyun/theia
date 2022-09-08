@@ -16,8 +16,16 @@
 		<div class="row banner">
 			<div class="col-xs-1 col-sm-1 col-md-1"></div>
 		</div>
-		<div class="row carousel">
-			<div class="col-xs-1 col-sm-1 col-md-1"></div>
+		<div class="row carousel-inner">
+			<div class="item active">
+				<img src="static/imgs/carousel.jpg" alt="First slide">
+			</div>
+			<div class="item">
+				<img src="static/imgs/carousel.jpg" alt="Second slide">
+			</div>
+			<div class="item">
+				<img src="static/imgs/carousel.jpg" alt="Third slide">
+			</div>
 		</div>
 		<div class="row nav">
 			<div class="col-xs-1 col-sm-1 col-md-1"></div>

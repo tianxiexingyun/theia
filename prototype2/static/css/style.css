@@ -1,11 +1,21 @@
 .container {
     border: 1px solid #000;
+    padding: 0;
+    background-color: #0f0f0f;
 }
 
 
 .header .row {
-    min-height: 36px;
     border: 1px solid #00ccff;
+    min-height: 72px;
+}
+
+.header .banner {
+    min-height: 160px;
+}
+
+.header .carousel-inner {
+    min-height: 360px;
 }
 
 .main .content {
@@ -21,4 +31,5 @@
 .footer .copyright {
     min-height: 72px;
     border: 1px solid #ff0070;
+    background-color: #060606;
 }
