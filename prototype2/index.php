@@ -36,30 +36,6 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 copyright"></div>
 		</div>
 	</div>
-
-
-	<div class="row">
-		<div class="col-xs-6 col-sm-3">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-		</div>
-		<div class="col-xs-6 col-sm-3">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-			   eiusmod tempor incididunt ut.
-			</p>
-		</div>
-
-		<div class="col-xs-6 col-sm-3">
-			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
-			   laboris nisi ut aliquip ex ea commodo consequat.
-			</p>
-		</div>
-		<div class="col-xs-6 col-sm-3">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-			   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-			   enim ad minim
-			</p>
-		</div>
-	</div>
 </div>
 
 </body>
