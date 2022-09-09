@@ -17,12 +17,12 @@
 		<div class="row banner">
 			<div class="col-xs-1 col-sm-1 col-md-1"></div>
 		</div>
-		<div id="myCarousel" class="row carousel slide">
+		<div id="siteCarousel" class="row carousel slide">
 			<!-- 轮播（Carousel）指标 -->
 			<ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#siteCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#siteCarousel" data-slide-to="1"></li>
+				<li data-target="#siteCarousel" data-slide-to="2"></li>
 			</ol>
 			<!-- 轮播（Carousel）项目 -->
 			<div class="carousel-inner">
@@ -36,19 +36,19 @@
 					<img src="static/imgs/carousel.jpg" alt="Third slide">
 				</div>
 			</div>
-
-			<!-- 轮播（Carousel）导航 -->
-			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
 		</div>
 		<div class="row nav">
-			<div class="col-xs-1 col-sm-1 col-md-1"></div>
+			<ul>
+				<li class="a" id="mn_portal"><a href="https://www.aboutyun.com/portal.php" hidefocus="true"
+				                                title="Portal">首页<span>Portal</span></a><i></i></li>
+				<li id="mn_forum"><a href="https://www.aboutyun.com/forum.php" hidefocus="true"
+				                     title="BBS">专题<span>BBS</span></a><i></i></li>
+				<li id="mn_Nce7c"><a href="https://www.aboutyun.com/forum-144-1.html" hidefocus="true">面试</a><i></i>
+				</li>
+				<li id="mn_Nb4c3" onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})"
+				    initialized="true" class=""><a href="https://www.aboutyun.com/forum.php?mod=guide" hidefocus="true">更多</a><i></i>
+				</li>
+			</ul>
 		</div>
 	</div>
 

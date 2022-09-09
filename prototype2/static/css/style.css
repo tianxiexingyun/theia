@@ -9,6 +9,11 @@ body {
     background-color: #0f0f0f;
 }
 
+.row {
+    margin: 0;
+    padding: 0;
+}
+
 
 .header .row {
     border: 1px solid #00ccff;
