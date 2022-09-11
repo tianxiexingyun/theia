@@ -1,6 +1,8 @@
 
 body {
     padding: 24px;
+    background-color: #1d1d1d;
+    color: #bbb;
 }
 
 .container {
@@ -30,6 +32,32 @@ body {
 
 .header .carousel .carousel-inner .item img {
     width: 100%;
+}
+
+.header nav {
+    background: -webkit-linear-gradient(#383838, #272727);
+    border-bottom: 1px solid #222;
+    box-shadow: 0 1px 2px #999;
+    clear: both;
+    display: block;
+    float: left;
+    margin: 0 auto 6px;
+    width: 100%;
+}
+
+.header .nav ul {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    list-style: none;
+    overflow-wrap: break-word;
+}
+
+.header .nav ul li {
+    position: relative;
+    float: left;
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
 
 
