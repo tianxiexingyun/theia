@@ -3,6 +3,7 @@ body {
     padding: 24px;
     background-color: #1d1d1d;
     color: #bbb;
+    line-height: 1.625;
 }
 
 .container {
@@ -14,12 +15,6 @@ body {
 .row {
     margin: 0;
     padding: 0;
-}
-
-
-.header .row {
-    border: 1px solid #00ccff;
-    min-height: 72px;
 }
 
 .header .banner {
@@ -34,15 +29,15 @@ body {
     width: 100%;
 }
 
-.header nav {
-    background: -webkit-linear-gradient(#383838, #272727);
-    border-bottom: 1px solid #222;
-    box-shadow: 0 1px 2px #999;
+.header .nav {
     clear: both;
     display: block;
     float: left;
-    margin: 0 auto 6px;
+    margin: 0 auto;
     width: 100%;
+    background: -webkit-linear-gradient(#383838, #272727);
+    border-bottom: 1px solid #222;
+    line-height: 300%;
 }
 
 .header .nav ul {
