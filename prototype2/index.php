@@ -11,7 +11,7 @@
 	<script src="static/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+朝辞白帝彩云间前，千里江陵一日还，面试，更多
 <div class="container">
 	<div class="header">
 		<div class="row banner">
@@ -39,14 +39,14 @@
 		</div>
 		<div class="row nav">
 			<ul>
-				<li class="a" id="mn_portal"><a href="https://www.aboutyun.com/portal.php" hidefocus="true"
-				                                title="Portal">首页<span>Portal</span></a><i></i></li>
-				<li id="mn_forum"><a href="https://www.aboutyun.com/forum.php" hidefocus="true"
-				                     title="BBS">专题<span>BBS</span></a><i></i></li>
-				<li id="mn_Nce7c"><a href="https://www.aboutyun.com/forum-144-1.html" hidefocus="true">面试</a><i></i>
+				<li id="mn_portal">
+					<a href="#" >文章</a>
 				</li>
-				<li id="mn_Nb4c3" onmouseover="showMenu({'ctrlid':this.id,'ctrlclass':'hover','duration':2})"
-				    initialized="true" class=""><a href="https://www.aboutyun.com/forum.php?mod=guide" hidefocus="true">更多</a><i></i>
+				<li id="mn_portal">
+					<a href="#" >动画</a>
+				</li>
+				<li class="a" id="mn_portal">
+					<a href="#" >漫画</a>
 				</li>
 			</ul>
 		</div>
