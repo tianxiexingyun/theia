@@ -40,22 +40,29 @@
 		<div class="row nav">
 			<ul>
 				<li id="mn_portal">
-					<a href="#" >文章</a>
+					<a href="#">文章</a>
 				</li>
 				<li id="mn_portal">
-					<a href="#" >动画</a>
+					<a href="#">动画</a>
 				</li>
 				<li class="a" id="mn_portal">
-					<a href="#" >漫画</a>
+					<a href="#">漫画</a>
 				</li>
 			</ul>
 		</div>
 	</div>
 
-	<div class="main">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-9 content"></div>
-			<div class="col-xs-12 col-sm-12 col-md-3 sidebar"></div>
+	<div class="row main">
+		<div class="col-xs-12 col-sm-12 col-md-9 content">
+			<div class="post-seg">
+				<div class="post-seg-header">
+					<h1>这是标题</h1>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-xs-0 col-sm-0 col-md-3 sidebar">
+
 		</div>
 	</div>
 
