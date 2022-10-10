@@ -11,7 +11,6 @@
 	<script src="static/js/bootstrap.min.js"></script>
 </head>
 <body>
-朝辞白帝彩云间前，千里江陵一日还，面试，更多
 <div class="container">
 	<div class="header">
 		<div class="row banner">
@@ -56,7 +55,18 @@
 		<div class="col-xs-12 col-sm-12 col-md-9 content">
 			<div class="post-seg">
 				<div class="post-seg-header">
-					<h1>这是标题</h1>
+					<div class="post-seg-title">这是标题</div>
+					<div class="post-seg-comments">3</div>
+					<div class="post-seg-time">2022-10-23</div>
+					<div class="post-seg-author">张三</div>
+				</div>
+
+				<div class="post-seg-content">
+					千里江陵一日还
+				</div>
+
+				<div class="post-seg-tags">
+					千里江陵一日还
 				</div>
 			</div>
 
