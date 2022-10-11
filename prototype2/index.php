@@ -56,9 +56,14 @@
 			<div class="post-seg">
 				<div class="post-seg-header">
 					<div class="post-seg-title">这是标题</div>
-					<div class="post-seg-comments">3</div>
+					<div class="post-seg-author">
+						<div class="post-seg-author-avatar">
+						</div>
+						<div class="post-seg-author-name">
+							张三
+						</div>
+					</div>
 					<div class="post-seg-time">2022-10-23</div>
-					<div class="post-seg-author">张三</div>
 				</div>
 
 				<div class="post-seg-content">
@@ -66,7 +71,9 @@
 				</div>
 
 				<div class="post-seg-tags">
-					千里江陵一日还
+					<div class="post-seg-view">0</div>
+					<div class="post-seg-reply">0</div>
+					<div class="post-seg-fav">0</div>
 				</div>
 			</div>
 
