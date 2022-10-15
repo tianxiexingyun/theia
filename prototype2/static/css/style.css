@@ -8,7 +8,6 @@ body {
 }
 
 .container {
-    border: 1px solid #000;
     padding: 0;
     background-color: #0f0f0f;
 }
@@ -64,20 +63,78 @@ body {
     text-decoration: none;
 }
 
-
 .header .nav ul li:hover > a, .header .nav ul li a:focus {
     background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
     color: #373737;
 }
 
-
-.main .content {
-    min-height: 72px;
-    border: 1px solid #5a5a5a;
+.main .primary {
+    min-height: 160px;
+    padding: 0 36px;
 }
 
-.main .sidebar {
-    min-height: 72px;
+.main .primary .post-seg {
+    padding: 27px 0 18px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #222;
+}
+
+.main .primary .post-seg-header {
+    position: relative;
+}
+
+.main .primary .post-seg-title {
+    font-size: 24px;
+}
+
+.main .primary .post-seg-title a {
+    color: #ddd;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.main .primary .post-seg-title a:active {
+    color: #1982d1;
+}
+
+.main .primary .post-seg-title a:hover {
+    color: #1982d1;
+}
+
+.main .primary .post-seg-time {
+    color: #999;
+}
+
+.main .primary .post-seg-comment a {
+    background: #282828 url(../imgs/comment-bubble.png) no-repeat;
+    border-color: #222;
+    color: #888;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 35px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 9px;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 43px;
+    height: 36px;
+}
+
+.main .primary .post-seg-comment a:hover {
+    background-color: #1982d1;
+    color: #ddd;
+}
+
+.main .primary .post-seg-footer{
+
+}
+
+
+.main .secondary {
+    min-height: 160px;
     border: 1px solid #5a5a00;
 }
 

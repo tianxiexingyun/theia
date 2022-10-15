@@ -52,33 +52,47 @@
 	</div>
 
 	<div class="row main">
-		<div class="col-xs-12 col-sm-12 col-md-9 content">
+		<div class="col-xs-12 col-sm-12 col-md-9 primary">
+			<div class="post-seg">
+				<div class="post-seg-content">
+					其实老一辈的戏好就好在，会让合适的人来演合适的戏，而不是受资本或关系的影响，非要安排一些不适合的人来演某个角色，如果找对了性格，那很多东西根本不用去演，自然而然，水到渠成,千里江陵一日还
+				</div>
+			</div>
+
 			<div class="post-seg">
 				<div class="post-seg-header">
-					<div class="post-seg-title">这是标题</div>
+					<div class="post-seg-title">
+						<a href="#">这是标题,比较长一点儿的标题</a>
+					</div>
+					<div class="post-seg-time">2022-10-23</div>
+					<div class="post-seg-comment">
+						<a href="#">31</a>
+					</div>
+				</div>
+
+				<div class="post-seg-content">
+					其实老一辈的戏好就好在，会让合适的人来演合适的戏，而不是受资本或关系的影响，非要安排一些不适合的人来演某个角色，如果找对了性格，那很多东西根本不用去演，自然而然，水到渠成,千里江陵一日还
+				</div>
+
+				<div class="post-seg-footer">
 					<div class="post-seg-author">
 						<div class="post-seg-author-avatar">
+							<img src="static/imgs/carousel.jpg" alt="First slide">
 						</div>
 						<div class="post-seg-author-name">
 							张三
 						</div>
 					</div>
-					<div class="post-seg-time">2022-10-23</div>
-				</div>
-
-				<div class="post-seg-content">
-					千里江陵一日还
-				</div>
-
-				<div class="post-seg-tags">
-					<div class="post-seg-view">0</div>
-					<div class="post-seg-reply">0</div>
-					<div class="post-seg-fav">0</div>
+					<div class="post-seg-source">
+						来自：<a href="#">一起看世界</a>
+					</div>
 				</div>
 			</div>
 
 		</div>
-		<div class="col-xs-0 col-sm-0 col-md-3 sidebar">
+
+
+		<div class="col-xs-0 col-sm-0 col-md-3 secondary">
 
 		</div>
 	</div>
