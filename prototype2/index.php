@@ -6,6 +6,7 @@
 	<meta charset="utf-8">
 	<title>Theia</title>
 	<link rel="stylesheet" href="static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="static/css/icono.min.css">
 	<link rel="stylesheet" href="static/css/style.css">
 	<script src="static/js/jquery-3.6.1.min.js"></script>
 	<script src="static/js/bootstrap.min.js"></script>
@@ -64,7 +65,9 @@
 					<div class="post-seg-title">
 						<a href="#">这是标题,比较长一点儿的标题</a>
 					</div>
-					<div class="post-seg-time">2022-10-23</div>
+					<div class="post-seg-meta">
+						<a href="#">图片</a> | 发表于 2022-10-23
+					</div>
 					<div class="post-seg-comment">
 						<a href="#">31</a>
 					</div>
@@ -76,24 +79,64 @@
 
 				<div class="post-seg-footer">
 					<div class="post-seg-author">
-						<div class="post-seg-author-avatar">
-							<img src="static/imgs/carousel.jpg" alt="First slide">
-						</div>
-						<div class="post-seg-author-name">
+						<a href="#">
+							<img src="static/imgs/avatar.gif" alt="">
 							张三
-						</div>
+						</a>
 					</div>
 					<div class="post-seg-source">
-						来自：<a href="#">一起看世界</a>
+						<a href="#">一起看世界</a>
 					</div>
 				</div>
 			</div>
 
+			<div class="post-seg">
+				<div class="post-seg-header">
+					<div class="post-seg-title">
+						<a href="#">这是标题,比较长一点儿的标题</a>
+					</div>
+					<div class="post-seg-meta">
+						<a href="#">图片</a> | 发表于 2022-10-23
+					</div>
+					<div class="post-seg-comment">
+						<a href="#">31</a>
+					</div>
+				</div>
+
+				<div class="post-seg-content">
+					其实老一辈的戏好就好在，会让合适的人来演合适的戏，而不是受资本或关系的影响，非要安排一些不适合的人来演某个角色，如果找对了性格，那很多东西根本不用去演，自然而然，水到渠成,千里江陵一日还
+				</div>
+
+				<div class="post-seg-footer">
+					<div class="post-seg-author">
+						<a href="#">
+							<img src="static/imgs/avatar.gif" alt="">
+							张三
+						</a>
+					</div>
+					<div class="post-seg-source">
+						<a href="#">一起看世界</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="page-nav">
+				<a href="#"><span class="page-item">1</span></a>
+				<a href="#"><span class="page-item">2</span></a>
+				<a href="#"><span class="page-item">3</span></a>
+				<a href="#"><span class="page-item">4</span></a>
+				<a href="#"><span class="page-item">15</span></a>
+			</div>
 		</div>
 
 
 		<div class="col-xs-0 col-sm-0 col-md-3 secondary">
-
+			<div class="widget-seg">
+				<div class="widget-seg-title">
+					<a href="#" class="badge-button"><i class="icono-signIn"></i> 登录</a>
+					<a href="#" class="badge-button"><i class="icono-user"></i> 注册</a>
+				</div>
+			</div>
 		</div>
 	</div>
 

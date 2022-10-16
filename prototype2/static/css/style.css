@@ -17,6 +17,24 @@ body {
     padding: 0;
 }
 
+.badge-button {
+    background: #33779b;
+    border: 1px solid #777;
+    padding: 2px 15px 4px;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 16px;
+    border-radius: 20px;
+    white-space: nowrap;
+    outline: 0;
+    text-decoration: none;
+}
+
+.badge-button:hover {
+    background-color: #1d1d1d;
+}
+
 .header .banner {
     min-height: 160px;
 }
@@ -42,7 +60,7 @@ body {
 
 .header .nav ul {
     margin: 0;
-    padding: 0;
+    padding: 0 18px;
     font-size: 13px;
     list-style: none;
     overflow-wrap: break-word;
@@ -74,17 +92,22 @@ body {
 }
 
 .main .primary .post-seg {
-    padding: 27px 0 18px;
-    margin-bottom: 18px;
+    margin: 12px 0;
+    padding-top: 6px;
     border-bottom: 1px solid #222;
+}
+
+.main .primary .post-seg-content {
+    margin: 24px 0;
 }
 
 .main .primary .post-seg-header {
     position: relative;
+    margin: 16px 0;
 }
 
 .main .primary .post-seg-title {
-    font-size: 24px;
+    font-size: 21px;
 }
 
 .main .primary .post-seg-title a {
@@ -101,7 +124,9 @@ body {
     color: #1982d1;
 }
 
-.main .primary .post-seg-time {
+.main .primary .post-seg-meta {
+    margin: 9px 0;
+    font-size: 10px;
     color: #999;
 }
 
@@ -115,7 +140,7 @@ body {
     overflow: hidden;
     padding: 0;
     position: absolute;
-    top: 9px;
+    top: 3px;
     right: 0;
     text-align: center;
     text-decoration: none;
@@ -128,10 +153,81 @@ body {
     color: #ddd;
 }
 
-.main .primary .post-seg-footer{
-
+.main .primary .post-seg-meta a,
+.main .primary .post-seg-footer a {
+    text-decoration: none;
+    color: #1982d1;
+    font-size: 12px;
 }
 
+.main .primary .post-seg-meta a:hover,
+.main .primary .post-seg-footer a:hover {
+    color: #bbb;
+}
+
+.main .primary .post-seg-author img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+.main .primary .post-seg-footer {
+    position: relative;
+    margin: 21px 0;
+}
+
+.main .primary .post-seg-source {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.main .primary .post-seg-source a {
+    background-color: #282828;
+    color: #999;
+    padding: 3px 9px;
+}
+
+.main .primary .post-seg-source a:hover {
+    background-color: #1982d1;
+    color: #ddd;
+}
+
+.main .primary .page-nav {
+    padding: 6px 0 30px;
+    margin-bottom: 16px;
+}
+
+.main .primary .page-nav .page-item {
+    margin-right: 6px;
+    padding-top: 2px;
+    display: block;
+    width: 27px;
+    position: relative;
+    float: left;
+    height: 27px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #999;
+    color: #bbb;
+    text-decoration: none;
+}
+
+.main .primary .page-nav .page-item:hover {
+    background-color: #1982d1;
+    color: #eee;
+}
+
+.main .secondary .widget-seg-title a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main .secondary .widget-seg-title a:hover {
+    color: #ddd;
+}
 
 .main .secondary {
     min-height: 160px;
