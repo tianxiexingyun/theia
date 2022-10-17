@@ -133,8 +133,12 @@
 		<div class="col-xs-0 col-sm-0 col-md-3 secondary">
 			<div class="widget-seg">
 				<div class="widget-seg-title">
-					<a href="#" class="badge-button"><i class="icono-signIn"></i> 登录</a>
-					<a href="#" class="badge-button"><i class="icono-user"></i> 注册</a>
+					这是标题，短标题
+				</div>
+				<div class="widget-seg-user">
+					<a href="#" class="badge-button"><i class="icono-signIn"></i>登录</a>
+					&nbsp;&nbsp;
+					<a href="#" class="badge-button"><i class="icono-user"></i>  注册</a>
 				</div>
 			</div>
 		</div>

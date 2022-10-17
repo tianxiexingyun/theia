@@ -220,12 +220,28 @@ body {
     color: #eee;
 }
 
-.main .secondary .widget-seg-title a {
+.main .secondary .widget-seg {
+    margin: 24px 0 0;
+}
+
+.main .secondary .widget-seg-title {
+    margin: 24px 0 16px;
+    padding-bottom: 9px;
+    border-bottom: 2px solid #222;
+    font-size: 17px;
+    font-weight: 5720;
+}
+
+.main .secondary .widget-seg-user {
+    text-align: center;
+}
+
+.main .secondary .widget-seg-user a {
     text-decoration: none;
     color: #333;
 }
 
-.main .secondary .widget-seg-title a:hover {
+.main .secondary .widget-seg-user a:hover {
     color: #ddd;
 }
 
