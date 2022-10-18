@@ -135,10 +135,28 @@
 				<div class="widget-seg-title">
 					这是标题，短标题
 				</div>
-				<div class="widget-seg-user">
+				<div class="widget-seg-meta">
 					<a href="#" class="badge-button"><i class="icono-signIn"></i>登录</a>
 					&nbsp;&nbsp;
-					<a href="#" class="badge-button"><i class="icono-user"></i>  注册</a>
+					<a href="#" class="badge-button"><i class="icono-user"></i> 注册</a>
+				</div>
+			</div>
+
+
+			<div class="widget-seg">
+				<div class="widget-seg-title">
+					推荐阅读
+				</div>
+				<div class="widget-seg-article">
+					<ul>
+						<li>
+							<i></i>
+							<a href="#">
+								<div class="widget-seg-article-time">2022-10-22</div>
+								<div class="widget-seg-article-title">这里是一篇文章的标题</div>
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>

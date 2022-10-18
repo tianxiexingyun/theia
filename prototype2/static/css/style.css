@@ -232,18 +232,44 @@ body {
     font-weight: 5720;
 }
 
-.main .secondary .widget-seg-user {
+.main .secondary .widget-seg-meta {
     text-align: center;
 }
 
-.main .secondary .widget-seg-user a {
+.main .secondary .widget-seg-meta a {
     text-decoration: none;
     color: #333;
 }
 
-.main .secondary .widget-seg-user a:hover {
+.main .secondary .widget-seg-meta a:hover {
     color: #ddd;
 }
+
+.main .secondary .widget-seg-article ul {
+    border-left: 1px solid #EEEEEE;
+}
+
+.main .secondary .widget-seg-article li {
+    position: relative;
+    padding: 6px 0 6px 15px;
+    list-style: none;
+}
+
+
+.main .secondary .widget-seg-article li i {
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    border-width: 1px;
+    border-color: #aaa;
+    border-style: solid;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+    left: -4px;
+    top: 15px;
+}
+
 
 .main .secondary {
     min-height: 160px;
