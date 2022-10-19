@@ -246,13 +246,27 @@ body {
 }
 
 .main .secondary .widget-seg-article ul {
+    display: block;
+    margin-left: 6px;
+    padding: 0;
     border-left: 1px solid #EEEEEE;
+    padding-inline-start: 6px;
+
 }
 
 .main .secondary .widget-seg-article li {
     position: relative;
+    margin: 0;
     padding: 6px 0 6px 15px;
     list-style: none;
+}
+
+
+.main .secondary .widget-seg-article li:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    overflow: inherit;
+    opacity: 0.85;
 }
 
 
@@ -266,8 +280,13 @@ body {
     border-radius: 100%;
     position: absolute;
     z-index: 1;
-    left: -4px;
+    left: -9px;
     top: 15px;
+}
+
+
+.main .secondary .widget-seg-article li a {
+    text-decoration: none;
 }
 
 
