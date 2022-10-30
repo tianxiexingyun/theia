@@ -1,3 +1,4 @@
+/*common*/
 
 body {
     padding: 24px;
@@ -31,10 +32,12 @@ body {
     text-decoration: none;
 }
 
+
 .badge-button:hover {
     background-color: #1d1d1d;
 }
 
+/*----------------------- header start */
 .header .banner {
     min-height: 160px;
 }
@@ -86,6 +89,25 @@ body {
     color: #373737;
 }
 
+/*----------------------- header end */
+
+
+/*----------------------- main common start */
+.main a {
+    color: #1982d1;
+    text-decoration: none;
+}
+
+.main a:hover {
+    color: #1982d1;
+    text-decoration: none;
+}
+
+/*----------------------- main common end */
+
+
+/*----------------------- main primary start */
+
 .main .primary {
     min-height: 160px;
     padding: 0 36px;
@@ -113,7 +135,6 @@ body {
 .main .primary .post-seg-title a {
     color: #ddd;
     font-weight: 700;
-    text-decoration: none;
 }
 
 .main .primary .post-seg-title a:active {
@@ -134,6 +155,7 @@ body {
     background: #282828 url(../imgs/comment-bubble.png) no-repeat;
     border-color: #222;
     color: #888;
+    text-align: center;
     font-size: 13px;
     font-weight: 400;
     line-height: 35px;
@@ -142,8 +164,6 @@ body {
     position: absolute;
     top: 3px;
     right: 0;
-    text-align: center;
-    text-decoration: none;
     width: 43px;
     height: 36px;
 }
@@ -155,7 +175,6 @@ body {
 
 .main .primary .post-seg-meta a,
 .main .primary .post-seg-footer a {
-    text-decoration: none;
     color: #1982d1;
     font-size: 12px;
 }
@@ -220,24 +239,30 @@ body {
     color: #eee;
 }
 
+
+/*----------------------- main primary end */
+
+
+/*----------------------- main secondary start */
+
 .main .secondary .widget-seg {
     margin: 24px 0 0;
 }
 
 .main .secondary .widget-seg-title {
-    margin: 24px 0 16px;
+    margin: 48px 0 16px;
     padding-bottom: 9px;
     border-bottom: 2px solid #222;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 5720;
 }
 
+/*meta*/
 .main .secondary .widget-seg-meta {
     text-align: center;
 }
 
 .main .secondary .widget-seg-meta a {
-    text-decoration: none;
     color: #333;
 }
 
@@ -245,11 +270,12 @@ body {
     color: #ddd;
 }
 
+/*article*/
 .main .secondary .widget-seg-article ul {
     display: block;
     margin-left: 6px;
     padding: 0;
-    border-left: 1px solid #EEEEEE;
+    border-left: 1px solid #aaa;
     padding-inline-start: 6px;
 
 }
@@ -261,19 +287,14 @@ body {
     list-style: none;
 }
 
-
-.main .secondary .widget-seg-article li:hover {
-    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
-    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
-    overflow: inherit;
-    opacity: 0.85;
+.main .secondary .widget-seg-article-time {
+    color: #aaa;
 }
-
 
 .main .secondary .widget-seg-article li i {
     width: 5px;
     height: 5px;
-    background: #fff;
+    background: #0f0f0f;
     border-width: 1px;
     border-color: #aaa;
     border-style: solid;
@@ -284,10 +305,63 @@ body {
     top: 15px;
 }
 
+.main .secondary .widget-seg-article li:hover i {
+    background: #245269;
+    border-color: #1982d1;
+}
+
+.main .secondary .widget-seg-article li p {
+    width: 15px;
+    height: 15px;
+    background-color: #0f0f0f;
+    border: 1px solid #1982d1;
+    opacity: 0;
+    border-radius: 100%;
+    position: absolute;
+    left: -14px;
+    top: 10px;
+    transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
+}
+
+.main .secondary .widget-seg-article li:hover p {
+    opacity: 0.8;
+}
 
 .main .secondary .widget-seg-article li a {
-    text-decoration: none;
+    color: #1982d1;
 }
+
+.main .secondary a:hover .widget-seg-article-title {
+    color: #1982d1;
+    text-decoration: underline;
+}
+
+/*author*/
+.main .secondary .widget-seg-author .authors {
+    margin-top: 32px;
+    clear: both;
+}
+
+.main .secondary .widget-seg-author .avatar {
+    float: left;
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.main .secondary .widget-seg-author img {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+/*----------------------- main secondary start */
 
 
 .main .secondary {

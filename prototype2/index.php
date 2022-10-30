@@ -145,6 +145,28 @@
 
 			<div class="widget-seg">
 				<div class="widget-seg-title">
+					推荐会员
+				</div>
+				<div class="widget-seg-author">
+					<div class="row authors">
+						<a href="#" class="avatar">
+							<img src="static/imgs/avatar.gif" alt=""/>
+						</a>
+						<div class="author-name">
+							<a href="#">
+								张三
+							</a>
+						</div>
+						<div class="author-meta">
+							主题  0 · 金币 20
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="widget-seg">
+				<div class="widget-seg-title">
 					推荐阅读
 				</div>
 				<div class="widget-seg-article">
@@ -155,10 +177,29 @@
 								<div class="widget-seg-article-time">2022-10-22</div>
 								<div class="widget-seg-article-title">这里是一篇文章的标题</div>
 							</a>
+							<p></p>
+						</li>
+						<li>
+							<i></i>
+							<a href="#">
+								<div class="widget-seg-article-time">2022-10-22</div>
+								<div class="widget-seg-article-title">这里是一篇文章的标题</div>
+							</a>
+							<p></p>
+						</li>
+						<li>
+							<i></i>
+							<a href="#">
+								<div class="widget-seg-article-time">2022-10-22</div>
+								<div class="widget-seg-article-title">这里是一篇文章的标题</div>
+							</a>
+							<p></p>
 						</li>
 					</ul>
 				</div>
 			</div>
+
+
 		</div>
 	</div>
 
