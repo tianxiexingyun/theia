@@ -148,7 +148,7 @@
 					推荐会员
 				</div>
 				<div class="widget-seg-author">
-					<div class="row authors">
+					<div class="row author">
 						<a href="#" class="avatar">
 							<img src="static/imgs/avatar.gif" alt=""/>
 						</a>
@@ -158,7 +158,7 @@
 							</a>
 						</div>
 						<div class="author-meta">
-							主题  0 · 金币 20
+							主题 0 · 金币 20
 						</div>
 					</div>
 				</div>
@@ -204,9 +204,8 @@
 	</div>
 
 	<div class="footer">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 copyright"></div>
-		</div>
+		<div class="second"></div>
+		<div class="first"></div>
 	</div>
 </div>
 
